@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+  <defs>
+    <style>
+      .title { font: 700 42px 'Arial'; fill: #ef7c00; }
+      .subtitle { font: 600 28px 'Arial'; fill: #4d4d4d; }
+      .label { font: 700 22px 'Arial'; fill: #4d4d4d; }
+      .small { font: 700 20px 'Arial'; fill: #4d4d4d; }
+      .instruction { font: 700 20px 'Arial'; fill: #3c3c3c; }
+      .box { fill: #fffaf0; stroke: #e3b769; stroke-width: 2; }
+      .grid { fill: #f5f2ec; stroke: #ebdca9; stroke-width: 2; }
+      .gridText { font: 700 22px 'Arial'; fill: #4d4d4d; }
+      .mainPink { fill: #f7c4c0; }
+      .mouth { fill: #f5b9b5; stroke: #e66a6a; stroke-width: 3; }
+      .teeth { fill: #fdfdfd; stroke: #d9d9d9; stroke-width: 2; }
+      .tongue { fill: #f2a2b5; }
+      .lipsLine { stroke: #c74c4c; stroke-width: 5; fill: none; stroke-linecap: round; }
+      .dashed { stroke: #e0c477; stroke-width: 2; fill: none; stroke-dasharray: 7 8; }
+    </style>
+  </defs>
+
+  <rect width="794" height="1123" fill="#f3f3f3"/>
+
+  <text x="397" y="100" text-anchor="middle" class="title">Mi boca</text>
+  <text x="397" y="150" text-anchor="middle" class="subtitle">Colorea y escribe los nombres</text>
+
+  <g transform="translate(80,180)">
+    <rect x="120" y="0" width="420" height="170" rx="42" class="mainPink"/>
+    <g>
+      <g>
+        <rect x="153" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="188" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="223" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="258" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="293" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="328" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="363" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="398" y="35" width="30" height="28" rx="8" class="teeth"/>
+        <rect x="433" y="35" width="30" height="28" rx="8" class="teeth"/>
+      </g>
+
+      <path d="M150 60 Q200 138 250 150 Q320 160 390 150 Q450 138 470 64 L470 120 Q440 150 400 160 Q330 175 250 170 Q180 165 150 125 Z" class="mouth"/>
+
+      <path d="M195 90 Q250 120 310 88 Q340 78 382 90" class="lipsLine"/>
+
+      <path d="M180 110 Q250 140 320 110" class="lipsLine"/>
+
+      <path d="M260 88 Q260 130 290 132 Q310 130 330 90" class="tongue"/>
+      <path d="M250 146 Q280 161 310 146" class="lipsLine" opacity="0.8"/>
+    </g>
+  </g>
+
+  <g transform="translate(95,420)">
+    <g>
+      <rect x="0" y="0" width="250" height="72" rx="12" class="grid"/>
+      <text x="125" y="46" text-anchor="middle" class="gridText">LABIOS</text>
+    </g>
+    <g>
+      <rect x="280" y="0" width="250" height="72" rx="12" class="grid"/>
+      <text x="405" y="46" text-anchor="middle" class="gridText">DIENTES</text>
+    </g>
+    <g>
+      <rect x="0" y="100" width="250" height="72" rx="12" class="grid"/>
+      <text x="125" y="146" text-anchor="middle" class="gridText">LENGUA</text>
+    </g>
+    <g>
+      <rect x="280" y="100" width="250" height="72" rx="12" class="grid"/>
+      <text x="405" y="146" text-anchor="middle" class="gridText">PALADAR</text>
+    </g>
+  </g>
+
+  <g transform="translate(78,560)">
+    <rect x="0" y="0" width="638" height="220" rx="14" class="box"/>
+    <path d="M0 30 H638" class="dashed"/>
+    <text x="30" y="78" class="instruction">1</text>
+    <text x="65" y="78" class="instruction">Colorea los labios de rojo.</text>
+
+    <text x="30" y="118" class="instruction">2</text>
+    <text x="65" y="118" class="instruction">Pinta los dientes de blanco.</text>
+
+    <text x="30" y="158" class="instruction">3</text>
+    <text x="65" y="158" class="instruction">Colorea la lengua de rosa.</text>
+
+    <text x="30" y="198" class="instruction">4</text>
+    <text x="65" y="198" class="instruction">Escribe los nombres: labios, dientes, lengua, paladar.</text>
+  </g>
+</svg>
+
